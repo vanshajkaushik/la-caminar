@@ -1,0 +1,483 @@
+*{
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ Html,body{
+         Width: 100%;
+         Height: 100%; 
+ 
+ }
+#header{
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    
+}
+#header a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-family: "Montserrat Alternates";
+    position: relative;
+    left: 400px;
+    margin-top: 40px;
+    font-size: 120%;
+    font-weight: 800;
+    transition: color 0.3s, font-size 0.3s;
+    
+    
+}
+#header a:hover{
+    color: darkmagenta;
+    font-size: 130%;
+}
+
+#logo{
+    width: 330px;
+    height: 100px; 
+    font-family: "savoye let";
+    color: white;
+    padding: 35px;
+    font-size:60px;
+    letter-spacing: 4px;
+    font-weight: 1000;
+}
+
+.text{
+    transition: color 0.3s, font-size 0.3s;
+}
+.text:hover{
+    color: darkmagenta;
+    font-size: 65px;
+}
+
+#icons{
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+#search{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    transition: font-size 0.3s, color 0.3s;
+}
+#search:hover{
+    color: darkmagenta;
+    font-size:28px;
+}
+#user{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    transition: font-size 0.3s, color 0.3s; 
+}
+#user:hover{
+    color: darkmagenta;
+    font-size: 28px;
+}
+#menu{
+    margin-left: 35px;
+    font-size: 25px;
+    color: white;
+    transition: font-size 0.3s, color 0.3s;
+}
+#menu:hover{
+    color: darkmagenta;
+    font-size: 28px;
+}
+#mainimg{
+    width: 100%;
+    height: 1000px;
+    background-image: url(main\ img.JPG);
+    background-size: cover;   
+    
+}
+#about{
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 165px;
+    background-color:transparent;
+    
+    
+}
+#effect{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.559);
+    font-family:"sauber script";
+    letter-spacing: 1px;
+    font-size: 23px;
+    color: white;
+    transition: width 0.4s ease, height 0.4s, background-color 0.5s, margin-left 0.4s,font-size 0.4s,color 0.4s;
+    text-align: center;
+}
+#effect:hover{
+    width: 105%;
+    margin-left: -2.5%;
+    height: 105%;
+    font-size: 24px;
+    color: rgb(240, 149, 240);
+
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#effect center{
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+}
+
+#round1{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?q=80&w=3148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+#round2{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?q=80&w=3148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#round3{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?q=80&w=3148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+}
+#oursponsors{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+#contact{
+    width: 100%;
+    height: 230px;
+    background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#main1{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    position: absolute;
+    position: relative;
+    left: 5%;
+    top: 5%;   
+}
+#main1 center{
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    transition: color 0.4s, font-size 0.4s;
+}
+#main1 center:hover{
+    color: rgb(240, 149, 240);
+    font-size: 27px;
+}
+#img1{
+    width: 45%;
+    height: 85%;
+    background-color: aqua;
+    position: absolute;
+    top: 18%;
+    left: 1.5%;
+    transition: width 0.4s, height 0.4s;
+}
+#img1:hover{
+    width: 47%;
+    height: 87%;
+}
+#aboutr1{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    top: 13%;
+    right: 1%;
+    background-color: transparent;
+    font-family: "sauber script";
+    color: white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: width 0.4s, height 0.4s, color 0.4s, font-size 0.4s;
+}
+#aboutr1 p{
+    position: absolute;
+    top: 27%;
+}
+#aboutr1:hover{
+    color:  rgb(240, 149, 240);
+    width: 47%;
+    height: 87%;
+    font-size: 24px;
+}
+
+#main2{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    position: absolute;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    
+    
+}
+#main2 center{
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+    color: white;
+    transition: font-size 0.4s, color 0.4s;
+}
+#main2 center:hover{
+    color: rgb(240, 149, 240);
+    font-size: 27px;
+}
+
+#img2{
+    width: 45%;
+    height: 85%;
+    background-image: url(img2new.JPG);
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    transition: width 0.4s, height 0.4s;
+}
+#img2:hover{
+    width: 47%;
+    height: 87%;
+}
+#aboutr2{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    top: 37%;
+    left: 2%;
+    background-color: transparent ;
+    font-family: "sauber script";
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    transition: color 0.4s, font-size 0.4s, width 0.4s, height 0.4s;  
+}
+#aboutr2:hover{
+    font-size: 24px;
+    color: rgb(240, 149, 240);
+    width: 47%;
+    height: 87%;
+}
+
+#main3{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    position: absolute;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+#main3 center{
+    font-family: "Montserrat Alternates";
+    font-size: 25px;
+    color: white;
+    transition: font-size 0.4s, color 0.4s;
+}
+#main3 center:hover{
+    color: rgb(240, 149, 240);
+    font-size: 27px;
+}
+#img3{
+    width: 45%;
+    height: 95%;
+    background-image: url(img3.JPG);
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    left: 1.5%;
+    transition: width 0.4s, height 0.4s;
+}
+#img3:hover{
+    width: 47%;
+    height: 97%;
+}
+#aboutr3{
+    width: 45%;
+    height: 95%;
+    position: absolute;
+    top: 35%;
+    right: 1.5%;
+    background-color:transparent ;
+    font-family: "sauber script";
+    font-size: 23.5px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    transition: color 0.4s, font-size 0.4s, width 0.4s, height 0.4s;
+}
+#aboutr3:hover{
+    font-size: 24px;
+    color: rgb(240, 149, 240);
+    width: 46%;
+    height: 87%;
+}
+#line2{
+    top: 5px;
+    height: 1px;
+    background-color: white;
+    width: 300px;
+}
+#img1{
+    background-image: url(img1.JPG);
+    background-size: cover;
+}
+#oursponsors{
+    font-family: "Montserrat Alternates";
+    font-size: 27px;
+    color: white;
+    position: relative;
+    display: flex;
+    
+}
+#oursponsors center{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    transition: color 0.4s, font-size 0.4s;
+    
+}
+#oursponsors center:hover{
+    color:rgb(240, 149, 240);
+    font-size: 29px;
+}
+#nike{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-image: url(nike.png);
+    background-size: cover;
+    top: 150px;
+    left: 50px;
+}
+#adidas{
+    position: absolute;
+    height: 180px;
+    width: 260px;
+    background-image: url(mi2.png);
+    background-size: cover;
+    top: 150px;
+    left: 300px;
+}
+#star{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-image: url(starbucks-logo-png-1679.png);
+    background-size: cover;
+    top: 150px;
+    left: 650px;
+}
+#myn{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-image: url(myntra.webp);
+    background-size: cover;
+    top: 150px;
+    left: 925px;
+}
+#red{
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    background-image: url(redbull.png);
+    background-size: cover;
+    top: 150px;
+    left: 1200px;
+}
+#contact{
+    font-family: "sauber script";
+    font-size: 24px;
+    color: white;
+    position: relative;
+
+}
+#contact p{
+    margin-left: 20px;
+
+}
+#contact h3{
+    font-family: "sauber script";
+    color: white;
+    margin-left: 20px;
+}
+#follow{
+    height: 60px;
+    width: 15%;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: white;
+    font-family:"sauber script";
+    font-size: 28px;
+
+    
+    
+}
+#insta{
+    font-size: 50px;
+    margin-right: 15px;
+    transition: font-size 0.4s, color 0.4s;
+    bottom: 10px;
+   
+}
+#insta:hover{
+    font-size: 60px;
+    color: pink ;
+}
+#whatsapp{
+    font-size: 50px;
+    margin-right: 15px;
+    transition: color 0.4s, font-size 0.4s;
+}
+#whatsapp:hover{
+    font: size 60px;
+    color: lightgreen;
+}
+#facebook{
+    font-size: 50px;
+    transition: color 0.4s,font-size 0.4s;
+
+}
+#facebook:hover{
+    font-size: 60px;
+    color: rgba(63, 63, 234, 0.885);
+}
